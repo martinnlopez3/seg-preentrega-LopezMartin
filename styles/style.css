@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0  ; 
+    box-sizing: border-box !important;
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+
+/*---------------------main1-------------------*/
+
+.loguito__nav{
+    max-height: 4rem;
+}
+.texto_main{
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    color:#000000;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.card__img{
+    max-block-size: 70vh;
+    max-inline-size: 100%;
+}
+
+/*--------------------footer--------------*/
+
+.contenedor_footer{
+    background-color: #ececec;
+
+}
+
+
+/*---------main2 hamburguesas-----------*/
+.titulo_menu_hamburguesas{
+    color: rgb(0, 0, 0);
+    margin-block: 4rem;
+    text-align: center; 
+}
+.burga{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    background-color: #ececec;
+    
+}
+.burga_img{
+    border-radius: 10px;
+}
+.contenedor_texto_menu{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 200px;
+    
+}
+.contenedor_texto_descripcion{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+.contenedor_texto_precio{
+    display: flex;
+    margin-top: 2rem;
+    color:rgb(0, 0, 0);
+    font-weight: 400;
+}
+.precio1,.precio2,.precio3{
+    margin-left: 20px;
+    border: 1px solid #000000;
+    padding: .5rem;
+    
+}
+
+/*------------------bebidas-------*/
+
