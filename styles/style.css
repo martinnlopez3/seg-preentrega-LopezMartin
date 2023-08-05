@@ -24,13 +24,9 @@
     max-inline-size: 60vh;
 }
 
-.contenedor_footer{
-    background-color: #ececec;
-}
-
-.titulo_menu_hamburguesas{
+.titulo_menu_hamburguesas,.titulo_menu_bebidas{
     color: rgb(0, 0, 0);
-    margin-block: 4rem;
+    margin-block: 2rem;
     text-align: center; 
 }
 
@@ -59,20 +55,75 @@
     font-weight: 500;
     
 }
-
 .contenedor_texto_precio{
     display: flex;
     margin-top: 2rem;
     color:rgb(0, 0, 0);
     font-weight: 400;
 }
-
 .precio1,.precio2,.precio3{
     margin-left: 20px;
     border: 1px solid #000000;
     padding: .5rem; 
 }
-
 .bebida_img{
     max-width: 100%;
+}
+.texto__carta{
+    margin-left: 5rem;
+}
+.contenedor_contacto{
+  
+    align-items: center;
+    gap: 4rem;
+    margin-left: 5rem;
+
+}
+.horarios{
+    list-style-type: none;
+    margin-block: 3rem;
+}
+.item_horario{
+    font-size: 20px;
+}
+.mapa{
+    margin-left: 2rem;
+}
+.contenedor_footer{
+    display: flex;
+    background-color: #ececec;
+    margin-top: 5rem;
+}
+
+.contenedor_info_footer{
+    margin: auto;
+    margin-top: 2rem;
+}
+.titulo_footer,.direc_footer{
+    text-align: center;
+    font-weight: bold;
+}
+.loguito1_footer,.loguito2_footer{
+    margin-top: 2.2rem;
+}
+.boton_footer{
+
+    border: .5px solid rgba(102, 26, 26, 0.853);
+    justify-content: center
+    
+}
+.boton_footer a{
+  
+    color: #000000;
+    padding: 5px ;
+}
+.contenedor_boton{
+    display: flex;
+    background-color: #ececec ;
+    justify-content: center;
+    padding: 1.5rem;
+}
+.ul_footer li{
+    font-size: 1.2rem;
+
 }
