@@ -7,8 +7,10 @@
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
+/* INDEX */
+
 .loguito__nav{
-    max-height: 4rem;
+    max-height: 3rem;
 }
 .texto_main{
     margin-top: 4rem;
@@ -30,12 +32,16 @@
     text-align: center; 
 }
 
+
+
+/* Hamburguesas */
+
 .burga{ 
     display: flex ;
     padding: 20px;
     justify-content: center;
     background-color: #ececec;
-    margin: 10px
+    margin: 10px;
 }
 
 .burga_img{
@@ -66,12 +72,18 @@
     border: 1px solid #000000;
     padding: .5rem; 
 }
+
+
+/* Bebidas */
 .bebida_img{
     max-width: 100%;
 }
 .texto__carta{
     margin-left: 5rem;
 }
+
+
+/* contacto */
 .contenedor_contacto{
   
     align-items: center;
@@ -89,6 +101,9 @@
 .mapa{
     margin-left: 2rem;
 }
+
+
+/* Footer */
 .contenedor_footer{
     display: flex;
     background-color: #ececec;
@@ -109,7 +124,7 @@
 .boton_footer{
 
     border: .5px solid rgba(102, 26, 26, 0.853);
-    justify-content: center
+    justify-content: center;
     
 }
 .boton_footer a{
@@ -125,5 +140,207 @@
 }
 .ul_footer li{
     font-size: 1.2rem;
+}
+
+/* Animaciones */
+    .burga_img:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    .precio1:hover,.precio2:hover,.precio3:hover{
+        background-color: darkred;
+        color: white;
+        transition: 1s;
+    }
+
+    .contain_card_bebida:hover{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    }
+    .galeria_img:hover{
+        transform: scale(1.1);
+    }
+  
+
+
+/* MediaQ */
+
+@media screen and (max-width:768px){
+
+    
+    .burga{
+        
+        display: inline-block;
+    }
+    .burga_img{
+        margin-left: 25%;
+    }
+    .contenedor_texto_menu{
+        max-width: 100%;
+    }
+    .contenedor_texto_descripcion{
+        margin-left: 25%;
+        
+        font-weight: 400;
+    }
+    .contenedor_texto_precio{
+        margin-left: 25%;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .contain_bebida{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
+
+@media screen and (max-width:680px) {
+ 
+
+    .loguito1_footer,.loguito2_footer{
+        max-width: 100px;
+        max-height: 120px;
+    }
+    .loguito_footer{
+        object-fit: cover;
+         max-width: 100%;
+         max-height: 100%;
+    }
+    
+    .titulo_footer{
+        font-size: 25px;
+    }
+    .direc_footer{
+        font-size: 17px;
+    }
+    .ul_footer{
+        display:inline-flex;
+        flex-wrap:nowrap;
+        
+    }
+    .ul_footer li{
+        font-size: 17px;
+    }
+    .icon_footer{
+        font-size:17px;
+    }
+
+
+    .burga{
+        display: inline-block;
+   
+    }
+    .burga_img{
+        margin-left: 25%;
+    }
+    .contenedor_texto_menu{
+        max-width: 100%;
+    }
+    .contenedor_texto_descripcion{
+        margin-left: 25%;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .contenedor_texto_precio{
+        margin-left: 25%;
+        font-size: .9rem;
+        font-weight: 300;
+    }
+
+
+}
+@media screen and (max-width: 630px){
+    .loguito1_footer,.loguito2_footer{
+        max-width: 80px;
+        max-height: 100px;
+    }
+    .loguito_footer{
+        object-fit: cover;
+         max-width: 100%;
+         max-height: 100%;
+    }
+    
+    .titulo_footer{
+        font-size: 20px;
+    }
+    .direc_footer{
+        font-size: 14px;
+    }
+    .ul_footer{
+        display:inline-flex;
+        flex-wrap:nowrap;
+        
+    }
+    .ul_footer li{
+        font-size: 13px;
+    }
+    .icon_footer{
+        font-size:13px;
+    }
+    
+}
+@media screen and (max-width: 480px){
+
+    .parrafo_main1{
+        font-size: 17px;
+    }
+    .loguito1_footer,.loguito2_footer{
+        max-width: 60px;
+        max-height: 80px;
+    }
+    .loguito_footer{
+        object-fit: cover;
+         max-width: 100%;
+         max-height: 100%;
+    }
+    
+    .titulo_footer{
+        font-size: 18px;
+    }
+    .direc_footer{
+        font-size: 13px;
+    }
+    .ul_footer{
+        display:inline-flex;
+        flex-wrap:nowrap;
+        
+    }
+    .ul_footer li{
+        font-size: 10px;
+    }
+    .icon_footer{
+        font-size:10px;
+    }
+
+
+    .burga{
+        display: inline-block;
+   
+    }
+    .burga_img{
+        margin-left: 25%;
+    }
+    .contenedor_texto_menu{
+        max-width: 100%;
+    }
+    .contenedor_texto_descripcion{
+        margin-left: 25%;
+        font-size: .9rem;
+        font-weight: 400;
+    }
+    .contenedor_texto_precio{
+        margin-left: 25%;
+        font-size: .7rem;
+        font-weight: 300;
+    }
+
+}
+
+
+
+
+
+
+
+
